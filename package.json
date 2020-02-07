@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
-    "start": "nodemon index.js"  },
+    "start": "node  index.js",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "lint": "eslint **/*.js"
+      },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/401-advanced-javascript-muna/lab-08-express-routing.git"
